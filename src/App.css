@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #51152F;
+    color: white;
+}
+
+#navigation {
+    display: flex;
+    padding: 100px;
+    background-color: #1F0812;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+}
+
+#navigation p {
+    margin: 10px;
+}
+
+#cardboard {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    box-sizing: border-box;
+    width: 15%;
+    padding: 20px;
+    height: 20%;
+    transition: 0.1s;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.cards:hover {
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(1.15);
+    width: 15%;
+    padding: 20px;
+    height: 20%;
+}
+
+.cards img {
+    width: 90%;
+}
